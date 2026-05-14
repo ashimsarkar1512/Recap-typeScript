@@ -12,19 +12,36 @@ import 'dotenv/config';
       console.error('Auth Error!', err);
     }
 })();
+
+
 function addNumber(num1:number,num2:number):number{
+
     const add:number=num1+num2
+
     return add
+
 }
 
+
+
 // const addNumberTotal=addNumber(3,4)
+
 // console.log(addNumberTotal);
+
+
+
 
 
 const friend=(a:number,b:number):number=>{
 
+
+
             return a*b
+
 }
 
+
+
 const Total=friend(3,4)
+
 console.log(Total);
