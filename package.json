@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/functon.ts"
+    "dev": "node api.js && ts-node-dev --respawn --transpile-only src/functon.ts"
   },
   "keywords": [],
   "author": "",
